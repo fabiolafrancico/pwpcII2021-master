@@ -1,0 +1,8 @@
+# Ignorando las dependencias
+node_modules 
+dist-server
+#Ignorando los archivos de logs
+logs
+*.logs
+#Ignorando los archivos env
+.env

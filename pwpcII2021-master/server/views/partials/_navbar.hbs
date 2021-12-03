@@ -1,0 +1,42 @@
+<!--Se crea la estructura dropdown menu -->
+<ul id="dropdownMenu" class="dropdown-content">
+  <li><a href="/projects">
+      <i class="large material-icons" style="margin: 2px;">list</i>
+      Listar Proyectos</a></li>
+  <li class="divider"></li>
+  <li><a href="/projects/add">
+      <i class="large material-icons" style="margin: 2px;">add_box</i>
+      Crear Proyecto</a></li>
+</ul>
+
+
+
+<nav class="light-blue darken-4">
+  <div class="container">
+    <div class="nav-wraper">
+      <a href="/" class="brand-logo">&#128209;ProjNotes</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/about">Acerca de...</a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdownMenu">
+            DropDown<i class="material-icons right">arrow_drop_down</i>
+          </a></li>
+      </ul>
+      <!--Barra de navegación Móvil-->
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="sidenav" id="nav-mobile">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/projects">
+            <i class="large material-icons" style="margin: 2px;">list</i>
+            Listar Proyectos</a></li>
+        <li class="divider"></li>
+        <li><a href="/projects/add">
+            <i class="large material-icons" style="margin: 2px;">add_box</i>
+            Crear Proyecto</a></li>
+        <li><a href="/about">Acerca de...</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
